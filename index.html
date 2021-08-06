@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-main text-primary-dark">
+    <header class="pt-16 xl:pt-16 section-blue" id="header">
+        <div class="container mx-auto px-8 xl:px-36">
+            <div class="xl:flex xl:items-center xl:justify-between pb-12 xl:pb-36">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center hover:opacity-70 transition ease-in-out duration-300">
+                        <img src="img/Logo.png" alt="" class="w-8 mr-2 xl:w-14 xl:mr-4">
+                        <h1 class="text-base xl:text-lg"><a href="">DroneShopID</a></h1>
+                    </div>
+                    <div class="xl:hidden cursor-pointer" id="hamburger">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" />
+                        </svg>
+                    </div>
+                </div>
+                <nav class="hidden mt-4 mb-4 xl:block" id="menu">
+                    <ul class="text-base xl:flex xl:text-lg">
+                        <li class="mr-14 mb-4 xl:mb-0 hover:opacity-50 transition ease-in-out duration-300"><a href=""
+                                class="cursor-pointer">Home</a></li>
+                        <li class="mr-14 mb-4 xl:mb-0 hover:opacity-50 transition ease-in-out duration-300"><a href=""
+                                class="cursor-pointer">Gallery</a></li>
+                        <li class="mr-14 mb-4 xl:mb-0 hover:opacity-50 transition ease-in-out duration-300"><a href=""
+                                class="cursor-pointer">Products</a></li>
+                        <li class="mr-14 mb-4 xl:mb-0 hover:opacity-50 transition ease-in-out duration-300"><a href=""
+                                class="cursor-pointer">Review</a></li>
+                        <li class="mb-4 xl:mb-0 hover:opacity-50 transition ease-in-out duration-300"><a
+                                href="">Support</a></li>
+                    </ul>
+                </nav>
+                <div class="text-base xl:text-lg hidden xl:block" id="navButton">
+                    <a href=""
+                        class="xl:mr-2 bg-gray-200 xl:bg-transparent block xl:inline mb-4 min-w-full px-4 py-2 rounded-full font-semibold text-primary hover:opacity-50 transition ease-in-out duration-300">Sign
+                        in</a>
+                    <a href=""
+                        class="bg-primary block xl:inline min-w-full mt-2 font-semibold text-white px-4 py-2 xl:px-8 xl:py-4 rounded-full hover:opacity-70 transition ease-in-out duration-300">Register</a>
+                </div>
+            </div>
+            <div class="xl:flex items-center pb-44">
+                <div class="xl:w-1/2 w-full">
+                    <div
+                        class="bg-red-100 mb-4 px-2 py-1 xl:px-4 xl:py-2 w-max rounded-full text-red-400 flex items-center">
+                        <img src="img/tag.png" alt="" class="w-4 h-4 xl:w-5 xl:h-5">
+                        <span class="ml-4 uppercase font-medium xl:font-semibold text-sm xl:text-base">get 25%
+                            discount</span>
+                    </div>
+                    <div>
+                        <h1 class="capitalize text-5xl xl:text-7xl font-bold leading-tight mb-6 xl:mb-7">representing
+                            drone light</h1>
+                        <p class="text-lg xl:text-xl leading-normal xl:leading-relaxed opacity-50 mb-10 xl:mb-14">Look
+                            up the sky and beautiful world with
+                            simple navigation. Just record and get a lot memories to share, lightly and fast like a
+                            lightning.</p>
+                        <a href=""
+                            class="uppercase py-3 px-6 xl:py-5 xl:px-11 bg-primary rounded-full font-medium xl:font-semibold text-white">get
+                            now</a>
+                    </div>
+                </div>
+                <div class="xl:w-1/2 hidden xl:block">
+                    <img src="img/hero-image.png" alt="w-full">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="content" class="grid xl:grid-cols-2">
+        <div class="relative">
+            <img src="img/content-1.png" alt="" class="w-full z-50">
+            <div class="absolute text-center mt-36 inset-x-0 top-0 text-white">
+                <h1 class="font-bold text-5xl mb-8">Ultra Lights</h1>
+                <p class="text-3xl font-light leading-relaxed hidden xl:block">Drone move faster with weighing <br>
+                    component <span class="font-medium">under 200 g</span></p>
+            </div>
+        </div>
+        <div class="relative">
+            <img src="img/content-2.png" alt="" class="w-full z-50">
+            <div class="absolute text-center mt-36 inset-x-0 top-0 text-white">
+                <h1 class="font-bold text-5xl mb-8">Best Resolution</h1>
+                <p class="text-3xl font-light leading-relaxed hidden xl:block">Take a beautiful view with best camera
+                    <br>
+                    <span class="font-medium">up to 4K Camera Resolution</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-blue" id="features">
+        <div class="text-center pt-28 pb-16">
+            <h2 class="font-bold text-3xl lg:text-5xl mb-8">Why Drone Light ?</h2>
+            <p class="text-lg lg:text-2xl opacity-50 leading-relaxed">We provide a best self drone easy to use and
+                operate. With <br>
+                auto pilot, the device will take a beautiful view for the <br>
+                best of flying operation.</p>
+        </div>
+        <div
+            class="text-center flex flex-col lg:flex-row justify-center space-y-20 lg:space-y-0 lg:space-x-28 pb-16 lg:pb-80">
+            <div>
+                <h3 class="font-bold text-3xl lg:text-4xl mb-4">4K</h3>
+                <p class="text-base lg:text-xl opacity-50">Camera <br> Resolution</p>
+            </div>
+            <div>
+                <h3 class="font-bold text-3xl lg:text-4xl mb-4">2 TB</h3>
+                <p class="text-base lg:text-xl opacity-50">Storage <br> Capacity</p>
+            </div>
+            <div>
+                <h3 class="font-bold text-3xl lg:text-4xl mb-4">60 m/s</h3>
+                <p class="text-base lg:text-xl opacity-50">Super <br> Max Speed</p>
+            </div>
+            <div>
+                <h3 class="font-bold text-3xl lg:text-4xl mb-4">30 mins</h3>
+                <p class="text-base lg:text-xl opacity-50">Long flight <br> Time</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-image mx-auto lg:block hidden -m-56">
+        <img src="img/feature.png" alt="" class="w-full">
+    </section>
+
+    <section id="videos" class="pt-0 pb-16 lg:pt-56">
+        <div class="text-center pt-28 pb-16">
+            <div class="font-bold text-3xl lg:text-5xl mb-4">4K video shot on our</div>
+            <div class="font-bold text-3xl lg:text-5xl">Drone light</div>
+        </div>
+        <iframe class="mx-auto rounded-lg w-5/6 h-full lg:w-3/4 lg:h-screen"
+            src="https://www.youtube.com/embed/Oxv6IRcuNaI" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </section>
+
+    <section id="product-title">
+        <div class="text-center pt-28 pb-16">
+            <h2 class="font-bold text-3xl lg:text-5xl mb-8">New Products</h2>
+            <p class="text-lg lg:text-2xl opacity-50 leading-relaxed">New innovation, best quality than before. <br>
+                make every moment flying operation become unforgettable.</p>
+        </div>
+    </section>
+
+    <section class="mt-16 pb-36" id="products">
+        <div class="container mx-auto px-8 xl:px-36">
+            <div
+                class="flex flex-col lg:flex-row justify-center items-center space-x-0 lg:space-x-7 space-y-7 lg:space-y-0">
+                <div class="border border-gray-200 rounded-3xl p-8 h-auto w-11/12 lg:w-2/5">
+                    <div class="flex flex-col items-center justify-center">
+                        <img src="img/mini_drone.png" alt="" class="w-full">
+                        <div class="text-center">
+                            <h3 class="font-medium text-xl lg:text-3xl mt-8">Mini Drone</h3>
+                            <h2 class="mt-5 font-bold text-2xl lg:text-4xl">Rp.18.755.000</h2>
+                            <p class="mt-5 font-light leading-loose text-xl">Powerful camera drone at an
+                                affordable price range. Camera
+                                up to 4K resolution, optimize shots
+                                automatically.</p>
+                            <button
+                                class="mt-5 capitalize py-4 px-11 font-semibold text-white bg-primary rounded-full hover:opacity-80 transition ease-in-out duration-300">get
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-3xl p-8 h-auto w-11/12 lg:w-2/5">
+                    <div class="flex flex-col items-center justify-center">
+                        <img src="img/drone_light.png" alt="" class="w-full">
+                        <div class="text-center">
+                            <h3 class="font-medium text-3xl mt-8">Drone Lights</h3>
+                            <h2 class="mt-5 font-bold text-4xl">Rp23.086.000</h2>
+                            <p class="mt-5 font-light leading-loose text-xl">Drone light is every creators dream.
+                                Setting apperture manually and high
+                                baterry performance. Drone light is
+                                everything you need.</p>
+                            <button
+                                class="mt-5 capitalize py-4 px-11 font-semibold text-white bg-primary rounded-full hover:opacity-80 transition ease-in-out duration-300">get
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-3xl p-8 h-auto w-11/12 lg:w-2/5">
+                    <div class="flex flex-col items-center justify-center">
+                        <img src="https://source.unsplash.com/410x240/?dji" alt="" class="w-full rounded-2xl">
+                        <div class="text-center">
+                            <h3 class="font-medium text-3xl mt-8">Phantom Drone</h3>
+                            <h2 class="mt-5 font-bold text-4xl">Rp8.640.000</h2>
+                            <p class="mt-5 font-light leading-loose text-xl">Inspired by phantom, drone
+                                can move faster and quickly like a ghost.
+                                Focus on speed so you can investigate
+                                environtment quickly.</p>
+                            <button
+                                class="mt-5 capitalize py-4 px-11 font-semibold text-white bg-primary rounded-full hover:opacity-80 transition ease-in-out duration-300">get
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial" class="section-blue">
+        <div class="container mx-auto px-8 xl:px-36">
+            <h2 class="text-4xl text-center lg:text-left lg:text-6xl font-bold pt-32 leading-relaxed lg:leading-loose capitalize mb-16">what our "pilots" <br> are saying</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-8 pb-32">
+                <div class="border-2  border-gray-200 rounded-xl p-7 bg-white mb-8 text-center lg:text-left">
+                    <p class="leading-loose text-base">“With high resolution camera, <br>
+                        picture become clear and beautiful. <br>
+                        It’s so easy to operate drone.”</p>
+                    <div class="mt-8 flex items-center justify-center">
+                        <img src="img/avatar.png" alt="">
+                        <div class="ml-8">
+                            <h3 class="font-bold text-xl mb-2">Lukas Walker</h3>
+                            <span class="opacity-50">Content Creator</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-2  border-gray-200 rounded-xl p-7 bg-white mb-8 text-center lg:text-left">
+                    <p class="leading-loose text-base">“Taking high view video become <br>
+                        easy and faster. Battery perfomance <br>
+                        really helping for making film.”</p>
+                    <div class="mt-8 flex items-center justify-center">
+                        <img src="img/avatar-2.png" alt="">
+                        <div class="ml-8">
+                            <h3 class="font-bold text-xl mb-2">Jessica O'brien</h3>
+                            <span class="opacity-50">Director</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-2  border-gray-200 rounded-xl p-7 bg-white mb-8 text-center lg:text-left">
+                    <p class="leading-loose text-base">“Taking high view video become <br>
+                        easy and faster. Battery perfomance <br>
+                        really helping for making film.”</p>
+                    <div class="mt-8 flex items-center justify-center">
+                        <img src="img/avatar-3.png" alt="">
+                        <div class="ml-8">
+                            <h3 class="font-bold text-xl mb-2">Lisa Miller</h3>
+                            <span class="opacity-50">Artist</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="bg-primary-dark text-white">
+        <div class="container mx-auto px-8 xl:px-36">
+            <div class="grid grid-cols-1 gap-10 lg:gap-20 justify-center lg:grid-cols-4 py-20 lg:py-28">
+                <div>
+                    <div class="flex items-center">
+                        <img src="img/logo-white.png" alt="" class="w-16">
+                        <h3 class="font-bold text-2xl ml-5">DroneShopID</h3>
+                    </div>
+                    <p class="mt-6 font-extralight leading-loose">Look up the sky and beautiful <br>
+                        world easily.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-5 lg:mb-9">Explore</h4>
+                    <ul class="space-y-3 font-thin">
+                        <li>
+                            <a href="" class="cursor-pointer hover:opacity-50 transition ease-in duration-200">Our Service</a>
+                        </li>
+                        <li>
+                            <a href="" class="cursor-pointer hover:opacity-50 transition ease-in duration-200">Specification</a>
+                        </li>
+                        <li>
+                            <a href="" class="cursor-pointer hover:opacity-50 transition ease-in duration-200">Refund</a>
+                        </li>
+                        <li>
+                            <a href="" class="cursor-pointer hover:opacity-50 transition ease-in duration-200">Pricelist</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-5 lg:mb-9">Account</h4>
+                    <ul class="space-y-3 font-thin">
+                        <li>
+                            <a href="" class="cursor-pointer hover:opacity-50 transition ease-in duration-200">My Account</a>
+                        </li>
+                        <li>
+                            <a href="" class="cursor-pointer hover:opacity-50 transition ease-in duration-200">Top Benefit</a>
+                        </li>
+                        <li>
+                            <a href="" class="cursor-pointer hover:opacity-50 transition ease-in duration-200">How-to Tutorials</a>
+                        </li>
+                        <li>
+                            <a href="" class="cursor-pointer hover:opacity-50 transition ease-in duration-200">Moment</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-5 lg:mb-9">Office</h4>
+                    <ul class="space-y-3 font-thin">
+                        <li>
+                            <a href="" class="cursor-pointer hover:opacity-50 transition ease-in duration-200">+022 123 4567</a>
+                        </li>
+                        <li>
+                            <a href="" class="cursor-pointer hover:opacity-50 transition ease-in duration-200">Bandung, Indonesia</a>
+                        </li>
+                        <li>
+                            <a href="" class="cursor-pointer hover:opacity-50 transition ease-in duration-200">No. 2 (Autodrone)</a>
+                        </li>
+                        <li>
+                            <a href="" class="cursor-pointer hover:opacity-50 transition ease-in duration-200">support@autodrone.id</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
